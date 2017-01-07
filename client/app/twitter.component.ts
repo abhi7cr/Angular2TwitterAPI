@@ -9,7 +9,7 @@ import {Observable} from 'rxjs/Rx';
 export class TwitterComponent implements OnInit
  { 
  	tweets: any[]; 
- 	query: string = "@ThanxInc OR #thanxinc";
+ 	query: string = "";
  	totalItems:number = 0;
     currentPage:number = 1;
     perPageTweets: any[];
